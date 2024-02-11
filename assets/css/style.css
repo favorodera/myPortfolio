@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+body {
+    background-color: rgba(21, 21, 21, 1);
+}
+
+.webPageContainer {
+    width: 1440px;
+    margin: auto;
+    background-color: rgba(21, 21, 21, 1);
+}
+
+.hero {
+    padding-left: 165px;
+    display: flex;
+
+    >.heroTextContainer {
+        margin-top: 39px;
+
+        >.lowerCaseName {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: -0.444px;
+
+            >span {
+                color: rgba(217, 217, 217, 1);
+            }
+        }
+
+        >.greetingsAndIntroduction {
+            width: 706px;
+            display: flex;
+            flex-direction: column;
+            gap: 55.644px;
+            margin-top: 86px;
+
+            >.greetings {
+                font-size: 80px;
+                font-weight: 700;
+                line-height: 88px;
+                letter-spacing: -2.5px;
+                font-feature-settings: 'clig' off, 'liga' off;
+
+                >span {
+                    text-decoration: underline;
+                    text-decoration-color: rgba(108, 27, 240, 1);
+                    text-decoration-thickness: 4.608px;
+                }
+            }
+
+            >.introduction {
+                color: rgba(217, 217, 217, 1);
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                width: 579px;
+
+            }
+        }
+
+        >.heroButton {
+            width: 120px;
+            height: 38px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 2.286px;
+            padding-bottom: 10px;
+            border: none;
+            border-bottom: solid 2px rgba(108, 27, 240, 1);
+            background: none;
+            cursor: pointer;
+            margin-top: 65px;
+        }
+
+        .heroButton:hover {
+            color: rgba(108, 27, 240, 1);
+
+        }
+    }
+
+    >.heroImageAndSocialsContainer {
+        width: 445px;
+        height: 720px;
+
+        >.heroSocials {
+            width: 192.49px;
+            height: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 73px;
+            margin-top: 43px;
+            margin-left: 223px;
+
+            >a {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}

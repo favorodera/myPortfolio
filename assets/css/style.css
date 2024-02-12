@@ -8,6 +8,7 @@
 
 body {
     background-color: rgba(21, 21, 21, 1);
+    height: 150vh;
 }
 
 .webPageContainer {
@@ -117,12 +118,41 @@ body {
     width: 1110px;
     margin: auto;
     margin-top: 65px;
-    display: flex;
-    flex-wrap: wrap;
 
     >.skillsTopRectangle{
         width: 1110px;
         height: 1px;
         background-color: rgba(255, 255, 255, 1);
+        margin-bottom: 14px;
+    }
+
+    >.skillsAndExperienceContainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+
+        >.skillAndExperience{
+            width: 345px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-top: 58px;
+
+            >.skill{
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 56px;
+                letter-spacing: 1.5px;
+                font-feature-settings: 'clig' off, 'liga' off;
+            }
+
+            >.experience{
+                color: rgba(217, 217, 217, 1);
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                font-feature-settings: 'clig' off, 'liga' off;
+            }
+        }
     }
 }

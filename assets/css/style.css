@@ -19,6 +19,7 @@ body {
 .hero {
     padding-left: 165px;
     display: flex;
+    
 
     >.heroTextContainer {
         margin-top: 39px;
@@ -35,7 +36,7 @@ body {
         }
 
         >.greetingsAndIntroduction {
-            width: 706px;
+            width: 662px;
             display: flex;
             flex-direction: column;
             gap: 55.644px;
@@ -90,6 +91,10 @@ body {
         width: 445px;
         height: 720px;
 
+        >.heroImage{
+            width: 444.876px;
+        }
+
         >.heroSocials {
             width: 192.49px;
             height: 25px;
@@ -105,5 +110,19 @@ body {
                 height: 24px;
             }
         }
+    }
+}
+
+.skills{
+    width: 1110px;
+    margin: auto;
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+
+    >.skillsTopRectangle{
+        width: 1110px;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 1);
     }
 }

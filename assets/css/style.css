@@ -83,7 +83,7 @@ body {
             margin-top: 65px;
         }
 
-        >.heroButton:hover {
+        >.heroContactMeButton:hover {
             color: rgba(108, 27, 240, 1);
         }
     }
@@ -190,7 +190,7 @@ body {
             cursor: pointer;
         }
 
-        >.projectsButton:hover {
+        >.projectsContactMeButton:hover {
             color: rgba(108, 27, 240, 1);
         }
     }

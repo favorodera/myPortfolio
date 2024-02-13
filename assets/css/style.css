@@ -68,7 +68,7 @@ body {
             }
         }
 
-        >.heroButton {
+        >.heroContactMeButton {
             width: 120px;
             height: 38px;
             font-size: 16px;
@@ -83,9 +83,8 @@ body {
             margin-top: 65px;
         }
 
-        .heroButton:hover {
+        >.heroButton:hover {
             color: rgba(108, 27, 240, 1);
-
         }
     }
 
@@ -154,6 +153,45 @@ body {
                 line-height: 28px;
                 font-feature-settings: 'clig' off, 'liga' off;
             }
+        }
+    }
+}
+
+.projects{
+    width: 1110px; 
+    margin: auto;
+    margin-top: 140px;
+   
+
+    >.projectsHeaderAndContactMeButtonContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >.projectsHeader{
+            font-size: 88px;
+            font-weight: 700;
+            line-height: 88px;
+            letter-spacing: -2.5px;
+            font-feature-settings: 'clig' off, 'liga' off;
+        }
+
+        >.projectsContactMeButton {
+            width: 120px;
+            height: 38px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 2.286px;
+            padding-bottom: 10px;
+            border: none;
+            border-bottom: solid 2px rgba(108, 27, 240, 1);
+            background: none;
+            cursor: pointer;
+        }
+
+        >.projectsButton:hover {
+            color: rgba(108, 27, 240, 1);
         }
     }
 }

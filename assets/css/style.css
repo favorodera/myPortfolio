@@ -206,7 +206,7 @@ body {
             >.project{
                 width: 540px;
                 height: 400px;
-                background: url("/myPortfolio/assets/images/Bitmap.png");
+                background-image: url("/myPortfolio/assets/images/Bitmap.png");
                 margin-bottom: 20px;
                 position: relative;
                 border-radius: 10px;

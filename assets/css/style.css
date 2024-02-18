@@ -212,6 +212,10 @@ body {
                 border-radius: 10px;
                 margin-top: 69px;
 
+                >img{
+                    border-radius: 10px;
+                }
+
                 >.projectOverlay {
                     position: absolute;
                     top: 0;

@@ -199,6 +199,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-bottom: 139px;
         
         >.projectProjectNameAndProjectLanguagesContainer{
             width: 540px;
@@ -310,4 +311,66 @@ body {
 
     }
       
+}
+
+footer{
+    background-color: rgba(36, 36, 36, 1);
+    padding-top: 84px;
+    margin: auto;
+
+    >.contact{
+        width: 1110px;
+        display: flex;
+        gap: 220px;
+        margin: auto;
+
+        >.contactTextContainer{
+            width: 445px;
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+    
+            >.contactTextHeader{
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-size: 88px;
+                font-weight: 700;
+                line-height: 88px;
+                letter-spacing: -2.5px;
+            }
+
+            >.contactText{
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+            }
+        }
+
+        >.contactForm{
+            width: 445px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+
+            >div{
+                width: 445px;
+
+                >input{
+                    width: 445px;
+                    padding-left: 24px;
+                    padding-bottom: 17px;
+                    background: rgba(36, 36, 36, 1);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    letter-spacing: -0.222px;
+                    color: rgba(255, 255, 255, 1);
+                    outline-color: rgba(108, 27, 240, 1);
+                    border: none;
+                    border-bottom: rgba(255, 255, 255, 1) solid 1px;
+                }
+            }
+        }
+    }
+    
 }

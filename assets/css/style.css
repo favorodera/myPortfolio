@@ -424,11 +424,16 @@ footer{
         justify-content: space-between;
         align-items: center;
 
-        >p{
+        >.footerLowerCaseName {
             font-size: 32px;
             font-weight: 700;
             line-height: 32px;
             letter-spacing: -0.444px;
+            text-decoration: none;
+
+            >span {
+                color: rgba(217, 217, 217, 1);
+            }
         }
 
         >.footerSocialsContainer {
@@ -447,5 +452,4 @@ footer{
             }
         }
     }
-    
 }

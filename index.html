@@ -18,7 +18,7 @@
         <section class="hero">
 
             <div class="heroTextContainer">
-                <a href="https://favorodera.vercel.app/" class="lowerCaseName">favor<span>odera</span></a>
+                <a href="https://favorodera.vercel.app/" class="heroLowerCaseName">favor<span>odera</span></a>
 
                 <div class="greetingsAndIntroduction">
                     <p class="greetings">
@@ -290,17 +290,37 @@
 
                 <form class="contactForm" action="">
 
-                    <div class="nameInput"><input type="text" id="name" name="name" placeholder="NAME"></div>
-                    <div class="emailInput"><input type="email" name="email" id="email" placeholder="EMAIL"></div>
-                    <div class="messageInput"><textarea name="message" id="message" placeholder="MESSAGE"></textarea></div>
+                    <div class="nameInput"><input type="text" id="name" name="name" placeholder="NAME" oninput="this.value = this.value.toUpperCase()"></div>
+                    
+                    <div class="emailInput"><input type="email" name="email" id="email" placeholder="EMAIL" oninput="this.value = this.value.toUpperCase()"></div>
+                    
+                    <div class="messageInput"><textarea name="message" id="message" placeholder="MESSAGE" oninput="this.value = this.value.toUpperCase()"></textarea></div>
+
+                    <button class="contactFormSendMessageButton" type="submit">SEND MESSAGE</button>
                 </form>
 
             </div>
 
+            <div class="footerRectangle"></div>
+
+            <div class="footerLowerCaseNameAndSocialsContainer">
+                
+                <p>favorodera</p>
+
+                <div class="footerSocialsContainer">
+                    <a href="https://github.com/favorodera" target="_blank" class="heroSocial"><img src="./assets/icons/github.png" alt=""></a>
+
+                    <a href="" target="_blank" class="heroSocial"><img src="./assets/icons/LinkedIn.png" alt=""></a>
+
+                    <a href="https://twitter.com/favorodera" target="_blank" class="heroSocial"><img src="./assets/icons/twitter.png" alt=""></a>
+                </div>
+
+            </div>
         </footer>
 
     </div>
 
 
 </body>
+<script src="./assets/js/script.js"></script>
 </html>

@@ -19,12 +19,11 @@ body {
 .hero {
     padding-left: 165px;
     display: flex;
-    
 
     >.heroTextContainer {
         margin-top: 39px;
 
-        >.lowerCaseName {
+        >.heroLowerCaseName {
             font-size: 32px;
             font-weight: 700;
             line-height: 32px;
@@ -160,7 +159,7 @@ body {
     width: 1110px; 
     margin: auto;
     margin-top: 140px;
-   
+    
     >.projectsHeaderAndContactMeButtonContainer{
         display: flex;
         justify-content: space-between;
@@ -365,10 +364,86 @@ footer{
                     line-height: 26px;
                     letter-spacing: -0.222px;
                     color: rgba(255, 255, 255, 1);
-                    outline-color: rgba(108, 27, 240, 1);
                     border: none;
                     border-bottom: rgba(255, 255, 255, 1) solid 1px;
+                    outline: none;
                 }
+
+                >textarea{
+                    width: 445px;
+                    height: 107px;
+                    padding-left: 24px;
+                    padding-bottom: 17px;
+                    background: rgba(36, 36, 36, 1);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    letter-spacing: -0.222px;
+                    color: rgba(255, 255, 255, 1);
+                    border: none;
+                    border-bottom: rgba(255, 255, 255, 1) solid 1px;
+                    outline: none;
+                    resize: none;
+                }
+            }
+
+            >.contactFormSendMessageButton {
+                width: 144px;
+                height: 38px;
+                margin-left: auto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 2.286px;
+                padding-bottom: 10px;
+                border: none;
+                border-bottom: solid 2px rgba(78, 225, 160, 1);
+                background: none;
+                cursor: pointer;
+            }
+
+            >.contactFormSendMessageButton:hover{
+                color: rgba(108, 27, 240, 1);
+            }
+        }
+    }
+
+    >.footerRectangle{
+        width: 1110px;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 1);
+        margin: auto;
+        margin-top: 92px;
+    }
+
+    >.footerLowerCaseNameAndSocialsContainer{
+        width: 1110px;
+        margin: auto;
+        margin-top: 47px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >p{
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: -0.444px;
+        }
+
+        >.footerSocialsContainer {
+            width: 192.49px;
+            height: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 73px;
+            margin-top: 43px;
+            margin-left: 223px;
+
+            >a {
+                width: 24px;
+                height: 24px;
             }
         }
     }

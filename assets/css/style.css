@@ -472,8 +472,6 @@ footer{
     
         >.heroTextContainer {
             margin-top: 45px;
-            position: relative;
-            z-index: 1;
     
             >.heroLowerCaseName {
                 font-size: 32px;
@@ -540,8 +538,7 @@ footer{
         >.heroImageAndSocialsContainer {
             width: 258.347px;
             height: 418px;
-            position: absolute;
-            right: 29.91px;
+            visibility: hidden;
     
             >.heroImage{
                 width: 258.275px;
@@ -774,8 +771,8 @@ footer{
 
     footer{
         background-color: rgba(36, 36, 36, 1);
-        padding-top: 60px;
-        margin: auto;
+        padding-top: 60px;  
+        width: 768px;
     
         >.contact{
             width: 445px;

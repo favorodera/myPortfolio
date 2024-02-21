@@ -8,6 +8,7 @@
 
 body {
     background-color: rgba(21, 21, 21, 1);
+    width: 100vw;
 }
 
 .webPageContainer {
@@ -123,6 +124,11 @@ body {
         height: 1px;
         background-color: rgba(255, 255, 255, 1);
         margin-bottom: 14px;
+    }
+
+    >.skillsBottomRectangle{
+        visibility: hidden;
+        display: none;
     }
 
     >.skillsAndExperienceContainer{
@@ -580,6 +586,11 @@ footer{
             background-color: rgba(255, 255, 255, 1);
             margin-bottom: 45px;
         }
+
+        >.skillsBottomRectangle{
+            visibility: hidden;
+            display: none;
+        }
     
         >.skillsAndExperienceContainer{
             width: 391px;
@@ -906,6 +917,478 @@ footer{
                 margin-bottom: 73px;
                 margin-top: 43px;
                 margin-left: 223px;
+    
+                >a {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    
+    .webPageContainer {
+        width: 375px;
+        margin: auto;
+        background-color: rgba(21, 21, 21, 1);
+    }
+
+    .hero {
+        width: 343px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    
+        >.heroTextContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+    
+            >.heroLowerCaseName {
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: -0.444px;
+                text-decoration: none;
+                visibility: hidden;
+                display: none;
+                
+    
+                >span {
+                    color: rgba(217, 217, 217, 1);
+                }
+            }
+    
+            >.greetingsAndIntroduction {
+                width: 343px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 24px;
+    
+                >.greetings {
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    letter-spacing: -1.136px;
+                    font-feature-settings: 'clig' off, 'liga' off;
+    
+                    >span {
+                        text-decoration: underline;
+                        text-decoration-color: rgba(108, 27, 240, 1);
+                        text-decoration-thickness: 4px;
+                    }
+                }
+    
+                >.introduction {
+                    color: rgba(217, 217, 217, 1);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    width: 343px;
+    
+                }
+            }
+    
+            >.heroContactMeButton {
+                width: 120px;
+                height: 38px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 2.286px;
+                padding-bottom: 10px;
+                border: none;
+                border-bottom: solid 2px rgba(108, 27, 240, 1);
+                background: none;
+                cursor: pointer;
+                margin: auto;
+            }
+    
+            >.heroContactMeButton:hover {
+                color: rgba(108, 27, 240, 1);
+            }
+        }
+    
+        >.heroImageAndSocialsContainer {
+            width: 174px;
+            height: 300px;
+            margin: auto;
+    
+            >.heroImage{
+                width: 174px;
+                height: 242px;
+
+                >img{
+                    width: 174px;
+                    height: 242px;
+                }
+            }
+    
+            >.heroSocials {
+                width: 154px;
+                height: 25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: auto;
+                margin-bottom: 72px;
+                margin-top: 43px;
+                
+    
+                >a {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+
+    .skills{
+        width: 343px;
+        margin: auto;
+        margin-top: 80px;
+    
+        >.skillsTopRectangle{
+            width: 343px;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 1);
+            margin-bottom: 40px;
+        }
+
+        >.skillsBottomRectangle{
+            width: 343px;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 1);
+            margin-top: 40px;
+        }
+    
+        >.skillsAndExperienceContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+            >.skillAndExperience{
+                width: 345px;
+                display: flex;
+                flex-direction: column;
+                gap: 1px;
+                align-items: center;
+    
+                >.skill{
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    letter-spacing: -1px;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                }
+    
+                >.experience{
+                    color: rgba(217, 217, 217, 1);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                }
+            }
+        }
+    }
+
+    .projects{
+        width: 343px; 
+        margin: auto;
+        margin-top: 80px;
+        
+        >.projectsHeaderAndContactMeButtonContainer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+    
+            >.projectsHeader{
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: -1.136px;
+                font-feature-settings: 'clig' off, 'liga' off;
+            }
+    
+            >.projectsContactMeButton {
+                width: 120px;
+                height: 38px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 2.286px;
+                padding-bottom: 10px;
+                border: none;
+                border-bottom: solid 2px rgba(108, 27, 240, 1);
+                background: none;
+                cursor: pointer;
+            }
+    
+            >.projectsContactMeButton:hover {
+                color: rgba(108, 27, 240, 1);
+            }
+        }
+    
+        >.projectsContainer{
+            width: 343px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+            >.projectProjectNameAndProjectLanguagesContainer{
+                width: 343px;
+    
+                >.project{
+                    width: 343px;
+                    height: 253px;
+                    background: lightgray 50%;
+                    margin-bottom: 20px;
+                    position: relative;
+                    border-radius: 10px;
+    
+                    >img{
+                        border-radius: 10px;
+                        height: 253px;
+                        width: 343px;
+                    }
+    
+                    >.projectOverlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.75);
+                        visibility: hidden;
+                      }
+                    
+                    >.viewProjectAndViewCodeButtonsContainer{
+                        width: 138px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        gap: 48px;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        position: absolute;
+                        visibility: hidden;
+                        
+                        >.viewProjectButton {
+                            width: 138px;
+                            height: 38px;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 26px;
+                            letter-spacing: 2.286px;
+                            padding-bottom: 10px;
+                            border: none;
+                            border-bottom: solid 2px rgba(108, 27, 240, 1);
+                            background: none;
+                            cursor: pointer;
+                        }
+    
+                        >.viewCodeButton {
+                            width: 103px;
+                            height: 38px;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 26px;
+                            letter-spacing: 2.286px;
+                            padding-bottom: 10px;
+                            border: none;
+                            border-bottom: solid 2px rgba(108, 27, 240, 1);
+                            background: none;
+                            cursor: pointer;
+                        }
+    
+                        >.viewProjectButton:hover, .viewCodeButton:hover{
+                            color: rgba(108, 27, 240, 1);
+                        }
+                    }
+                }
+    
+                >.project:hover{
+                    
+                    >.viewProjectAndViewCodeButtonsContainer, .projectOverlay{
+                        visibility: visible;
+                    }
+                }
+    
+                >.projectNameAndProjectLanguagesContainer{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px;
+    
+                    >.projectName{
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 38px;
+                    }
+    
+                    >.projectLanguagesContainer{
+                        display: flex;
+                        gap: 18px;
+                        flex-wrap: wrap;
+    
+                        >p{
+                            font-feature-settings: 'clig' off, 'liga' off;
+                            font-size: 18px;
+                            line-height: 28px;
+                            font-weight: 500;
+                            color: rgba(217, 217, 217, 1);
+                        }
+                    }
+                }
+            }
+    
+        }
+          
+    }
+
+    footer{
+        background-color: rgba(36, 36, 36, 1);
+        padding-top: 84px;
+        margin: auto;
+    
+        >.contact{
+            width: 343px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            margin: auto;
+    
+            >.contactTextContainer{
+                width: 343px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+        
+                >.contactTextHeader{
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    letter-spacing: -1.136px;
+                }
+    
+                >.contactText{
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 26px;
+                }
+            }
+    
+            >.contactForm{
+                width: 343px;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+    
+                >div{
+                    width: 343px;
+    
+                    >input{
+                        width: 343px;
+                        padding-left: 24px;
+                        padding-bottom: 17px;
+                        background: rgba(36, 36, 36, 1);
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 26px;
+                        letter-spacing: -0.222px;
+                        color: rgba(255, 255, 255, 1);
+                        border: none;
+                        border-bottom: rgba(255, 255, 255, 1) solid 1px;
+                        outline: none;
+                    }
+    
+                    >textarea{
+                        width: 343px;
+                        height: 107px;
+                        padding-left: 24px;
+                        padding-bottom: 17px;
+                        background: rgba(36, 36, 36, 1);
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 26px;
+                        letter-spacing: -0.222px;
+                        color: rgba(255, 255, 255, 1);
+                        border: none;
+                        border-bottom: rgba(255, 255, 255, 1) solid 1px;
+                        outline: none;
+                        resize: none;
+                    }
+                }
+    
+                >.contactFormSendMessageButton {
+                    width: 144px;
+                    height: 38px;
+                    margin-left: auto;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    letter-spacing: 2.286px;
+                    padding-bottom: 10px;
+                    border: none;
+                    border-bottom: solid 2px rgba(78, 225, 160, 1);
+                    background: none;
+                    cursor: pointer;
+                }
+    
+                >.contactFormSendMessageButton:hover{
+                    color: rgba(108, 27, 240, 1);
+                }
+            }
+        }
+    
+        >.footerRectangle{
+            width: 343px;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 1);
+            margin: auto;
+            margin-top: 87px;
+        }
+    
+        >.footerLowerCaseNameAndSocialsContainer{
+            width: 154px;
+            margin: auto;
+            margin-top: 39px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+    
+            >.footerLowerCaseName {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: -0.444px;
+                text-decoration: none;
+    
+                >span {
+                    color: rgba(217, 217, 217, 1);
+                }
+            }
+    
+            >.footerSocialsContainer {
+                width: 154px;
+                height: 25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: auto;
+                margin-bottom: 73px;
     
                 >a {
                     width: 24px;

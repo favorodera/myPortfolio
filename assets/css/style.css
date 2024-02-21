@@ -17,8 +17,9 @@ body {
 }
 
 .hero {
-    padding-left: 165px;
+    width: 1110px;
     display: flex;
+    margin: auto;
 
     >.heroTextContainer {
         margin-top: 39px;
@@ -464,9 +465,8 @@ footer{
     }
 
     .hero{
-        padding-left: 1px;
-        display: flex;
         width: 706px;
+        
         margin: auto;
         
     
@@ -538,6 +538,7 @@ footer{
         >.heroImageAndSocialsContainer {
             width: 258.347px;
             height: 418px;
+            display: none;
             visibility: hidden;
     
             >.heroImage{
@@ -613,7 +614,7 @@ footer{
     }
 
     .projects{
-        width: 708px; 
+        width: 706px; 
         margin: auto;
         margin-top: 87px;
         

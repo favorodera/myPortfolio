@@ -466,12 +466,13 @@ footer{
 
     .hero{
         width: 706px;
-        
         margin: auto;
-        
-    
+
         >.heroTextContainer {
             margin-top: 45px;
+            width: 579px;
+            position: relative;
+            z-index: 1;
     
             >.heroLowerCaseName {
                 font-size: 32px;
@@ -486,7 +487,7 @@ footer{
             }
     
             >.greetingsAndIntroduction {
-                width: 545px;
+                width: 579px;
                 display: flex;
                 flex-direction: column;
                 gap: 38px;
@@ -536,16 +537,17 @@ footer{
         }
     
         >.heroImageAndSocialsContainer {
-            width: 258.347px;
+            width: 258px;
             height: 418px;
-            display: none;
-            visibility: hidden;
+            position: absolute;
+            right: 29px;
     
             >.heroImage{
-                width: 258.275px;
+                width: 258px;
+                height: 358PX;
 
                 >img{
-                    width: 258.275px;
+                    width: 258px;
                 }
             }
     

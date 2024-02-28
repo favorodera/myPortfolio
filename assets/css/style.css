@@ -63,9 +63,17 @@ body{
         width: 63px;
         height: 63px;
 
-        >img{
+        >svg{
             width: 63px;
             height: 63px;
+        }
+    }
+
+    >.navGithubIcon:hover{
+        >svg{
+            >#navGithubIconPath{
+                fill: rgba(166, 187, 204, 1);
+            }
         }
     }
 }
@@ -496,14 +504,24 @@ footer{
             gap: 20px;
             align-items: center;
 
-            >.FooterSocial {
-                width: 25px;
-                height: 25px;
+            >.footerSocial {
+                width: 30px;
+                height: 30px;
 
 
-                >img{
-                    width: 25px;
-                    height: 25px;
+                >svg{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+            >.footerSocial:hover{
+
+                >svg{
+
+                    >.footerSocialPath{
+                        fill: rgba(166, 187, 204, 1);
+                    }
                 }
             }
         }

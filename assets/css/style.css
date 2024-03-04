@@ -160,7 +160,6 @@ nav{
 
 .webPageSideBar{
     display: flex;
-    gap: 13px;
     position: fixed;
     left: 64px;
     top: 234px;
@@ -181,14 +180,13 @@ nav{
             border-radius: 50%;
             background-color: rgba(255, 255, 255, 1);
             
-
             >svg{
                 width: 24px;
                 height: 24px;
             }
         }
 
-        >.sideBarAboutMeIconContainer{
+        >.sideBarAboutMeIconContainer, >.sideBarSkillsIconContainer, >.sideBarWorksIconContainer, >.sideBarBlogsIconContainer, >.sideBarContactIconContainer{
             height: 40px;
             width: 40px;
             padding: 8px;
@@ -198,16 +196,114 @@ nav{
                 width: 24px;
             }
         }
+    }
+}
 
-        >.sideBarSkillsIconContainer, >.sideBarWorksIconContainer, >.sideBarBlogsIconContainer, >.sideBarContactIconContainer{
-            height: 40px;
-            width: 40px;
-            padding: 8px;
+.sideBarAboutMeIconHighlight{
+    position: absolute;
+    top: 75px;
+    right: -112px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    color: rgba(41, 47, 54, 1);
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    padding: 8px 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    visibility: hidden;
+}
 
-            >svg{
-                height: 24px;
-                width: 24px;
-            }
-        }
+.sideBarAboutMeIconContainer:hover{
+    .sideBarAboutMeIconHighlight{
+        visibility: visible;
+    }
+}
+
+.sideBarSkillsIconHighlight{
+    position: absolute;
+    top: 139px;
+    right: -80px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    color: rgba(41, 47, 54, 1);
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    padding: 8px 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    visibility: hidden;
+}
+
+.sideBarSkillsIconContainer:hover{
+    .sideBarSkillsIconHighlight{
+        visibility: visible;
+    }
+}
+
+.sideBarWorksIconHighlight{
+    position: absolute;
+    bottom: 139px;
+    right: -90px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    color: rgba(41, 47, 54, 1);
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    padding: 8px 16px;
+    font-family: "Ubuntu", sans-serif;
+    visibility: hidden;
+    font-size: 16px;
+}
+
+.sideBarWorksIconContainer:hover{
+    .sideBarWorksIconHighlight{
+        visibility: visible;
+    }
+}
+
+.sideBarBlogsIconHighlight{
+    position: absolute;
+    bottom: 75px;
+    right: -85px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    color: rgba(41, 47, 54, 1);
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    padding: 8px 16px;
+    font-family: "Ubuntu", sans-serif;
+    visibility: hidden;
+}
+
+.sideBarBlogsIconContainer:hover{
+    .sideBarBlogsIconHighlight{
+        visibility: visible;
+    }
+}
+
+.sideBarContactIconHighlight{
+    position: absolute;
+    bottom: 11px;
+    right: -102px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    color: rgba(41, 47, 54, 1);
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    padding: 8px 16px;
+    font-family: "Ubuntu", sans-serif;
+    visibility: hidden;
+    font-size: 16px;
+}
+
+.sideBarContactIconContainer:hover{
+    .sideBarContactIconHighlight{
+        visibility: visible;
     }
 }

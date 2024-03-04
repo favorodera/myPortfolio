@@ -12,7 +12,6 @@ font-family: "Ubuntu", sans-serif; */
 .webPageContainer{
     width: 1920px;
     margin: auto;
-    height: 500vh;
 }
 
 nav{
@@ -131,7 +130,7 @@ nav{
 .hero{
     background-color: rgba(41, 47, 54, 1);
     padding: 64px 128px 128px 128px;
-    position: relative;
+    margin: auto;
 
     >.heroContainer{
         margin: auto;
@@ -164,7 +163,7 @@ nav{
     gap: 13px;
     position: fixed;
     left: 64px;
-    top: 64px;
+    top: 234px;
 
     >.sideBarIconsContainer{
         background-color: rgba(26, 30, 35, 1);

@@ -73,25 +73,26 @@ nav{
                 }
 
                 >.navSearchContainer{
-                    position: relative;
                     display: flex;
                     align-items: center;
                     height: 32px;
                     width: 204px;
                     border-radius: 24px;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                    background-color: rgba(255, 255, 255, 1);
 
                     >.navSearchInput{
                         outline: none;
                         height: 32px;
-                        width: 204px;
-                        border-radius: 24px;
-                        padding-left: 16px;
+                        width: 168px;
                         border: none;
+                        text-transform: capitalize;
+                        border-top-left-radius: 24px;
+                        border-bottom-left-radius: 24px;
                     }
 
                     >svg{
-                        position: absolute;
-                        left: 168px;
                         width: 20px;
                         height: 20px;
                     }

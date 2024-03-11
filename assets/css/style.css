@@ -482,13 +482,12 @@ nav{
 }
 
 .aboutMe{
-    background: lightgray 50% / cover no-repeat, rgba(26, 30, 35, 1);
+    background: url(/myPortfolio/assets/images/aboutMeBackgroundImage.png) lightgray 50% / cover no-repeat, rgba(26, 30, 35, 1);
     display: flex;
     flex-direction: column;
     gap: 128px;
     padding: 128px;
     margin: auto;
-    background-image: url(/myPortfolio/assets/images/aboutMeBackgroundImage.png);
     position: relative;
     
     >.aboutMeOverlay{

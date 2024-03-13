@@ -20,6 +20,9 @@ nav{
 
     >.navItemsContainer{
         padding: 64px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         
         >.navLogo{
             width: max-content;
@@ -31,14 +34,47 @@ nav{
             line-height: 42px;
             color: rgba(255, 255, 255, 1);
 
-
             >.navLogoTagText{
                 color: rgba(18, 247, 214, 1);
             }
         }
 
         >.navNavigations{
-            
+            display: flex;
+            gap: 64px;
+
+            >.textNavigators{
+                width: max-content;
+                display: flex;
+                gap: 32px;
+                color: rgba(255, 255, 255, 1);
+                font-family: "IBM Plex Mono", monospace;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 32px;
+
+                >a{
+                    color: rgba(255, 255, 255, 1);
+                    text-decoration: none;
+                }
+            }
+
+            >.navSearch{
+                width: max-content;
+                display: flex;
+                border-radius: 24px;
+                
+                
+                
+                >input{
+
+                }
+
+                >svg{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
         }
     }
 }

@@ -82,10 +82,19 @@ nav{
                     color: rgba(41, 47, 54, 1);
                 }
 
-                >svg{
+                >.navSearchButton{
                     width: 20px;
                     height: 20px;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+
+                    >svg{
+                        width: 20px;
+                        height: 20px;
+                    }
                 }
+                
             }
 
             >.navSocials{

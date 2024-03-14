@@ -41,6 +41,7 @@ nav{
 
         >.navNavigations{
             display: flex;
+            align-items: center;
             gap: 64px;
 
             >.textNavigators{
@@ -60,19 +61,47 @@ nav{
             }
 
             >.navSearch{
-                width: max-content;
+                max-width: 204px;
                 display: flex;
+                align-items: center;
+                padding-right: 16px;
                 border-radius: 24px;
                 background-color: rgba(255, 255, 255, 1);
                 
-                
                 >input{
-
+                    width: 168px;
+                    height: 32px;
+                    padding-left: 16px;
+                    border-radius: 24px 0px 0px 24px;
+                    border: none;
+                    outline: none;
+                    font-family: "IBM Plex Mono", monospace;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    color: rgba(41, 47, 54, 1);
                 }
 
                 >svg{
                     width: 20px;
                     height: 20px;
+                }
+            }
+
+            >.navSocials{
+                display: flex;
+                align-items: center;
+                gap: 32px;
+
+                >.navSocial{
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+
+                    >svg{
+                        width: 20px;
+                        height: 20px;
+                    }
                 }
             }
         }

@@ -147,6 +147,130 @@ nav{
 
         >.introduction{
             display: flex;
+            width: 960px;
+            margin: auto;
+
+            >.mainIntroduction{
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+
+                >.nameAndProffessionIntroductionContainer{
+                    
+
+                   >.nameAndProffessionIntroductionTagText{
+                    color: rgba(152, 250, 236, 1);
+                    font-family: "IBM Plex Mono", monospace;;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    width: max-content;
+                   } 
+
+                   >.nameAndProffessionIntroduction{
+                    padding: 0px 16px;
+
+                    >p{
+                        font-family: "Ubuntu", sans-serif;
+                        font-size: 64px;
+                        font-weight: 400;
+                        line-height: 72px;
+                        color: rgba(255, 255, 255, 1);
+                        width: max-content;
+                    }
+                   }
+                }
+
+                >.moreIntroduction{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    >.moreIntroductionTagText{
+                        color: rgba(152, 250, 236, 1);
+                        font-family: "IBM Plex Mono", monospace;;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        width: max-content; 
+                    }
+
+                    >.moreIntroductionText{
+                        font-family: "IBM Plex Mono", monospace;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: rgba(255, 255, 255, 1);
+                        padding: 0px 24px;
+                    }
+
+                    >.moreIntroductionCallToActionsContainer{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+
+                        >.letsTalkCTA, >.downloadCvCTA{
+                            display: flex;
+                            gap: 16px;
+                            width: max-content;
+
+                            >p{
+                                color: rgba(18, 247, 214, 1);
+                                font-family: "IBM Plex Mono", monospace;
+                                font-size: 32px;
+                                font-weight: 500;
+                                line-height: 42px;
+                            }
+
+                            >a{
+                                width: 40px;
+                                height: 40px;
+                                text-decoration: none;
+                                background-color: rgba(67, 69, 77, 1);
+                                padding: 8px;
+                                border-radius: 40px;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+
+            >.careerHighlights{
+                background-color: rgba(26, 30, 35, 1);
+                border-radius: 80px;
+                box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+                padding: 48px 32px;
+                display: flex;
+                flex-direction: column;
+                gap: 48px;
+                height: min-content;
+                align-self: center;
+
+                >.highlight{
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+
+                    >.highlightNumber{
+                        color: rgba(18, 247, 214, 1);
+                        font-family: "IBM Plex Mono", monospace;
+                        font-size: 48px;
+                        font-weight: 500;
+                        line-height: 62px;
+                        width: max-content;
+                    }
+
+                    >.highlightText{
+                        color: rgba(255, 255, 255, 1);
+                        font-family: "IBM Plex Mono", monospace;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        width: min-content;
+                    }
+                }
+            }
         }
     }
 }

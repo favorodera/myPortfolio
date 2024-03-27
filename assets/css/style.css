@@ -20,6 +20,7 @@
 
 nav{
     width: 1280px;
+    height: 170px;
     background-color: rgba(41, 47, 54, 1);
     padding: 0px 128px;
 
@@ -122,6 +123,7 @@ nav{
         }
     }
 }
+
 
 .hero{
     width: 1280px;
@@ -269,6 +271,76 @@ nav{
                         line-height: 20px;
                         width: min-content;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+.aboutMe{
+    position: relative;
+    width: 1280px;
+    height: 1689px;
+    padding: 128px;
+    background: url("../images/aboutMeBackgroundImage.png");
+    background-color: rgba(26, 30, 35, 1);
+
+
+    >.aboutMeOverlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(26, 30, 35, 0.7);
+    }
+
+    >.aboutMeItemsContainer{
+        position: relative;
+        width: 1024px;
+        display: flex;
+        flex-direction: column;
+        gap: 128px;
+
+        >.mouseDirectionContainer{
+            width: 1024px;
+            height: 140px;
+
+            >.mouseDirection{
+                margin: auto;
+                width: 32px;
+                height: 140px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+
+                >.mouse{
+                    width: 32px;
+                    height: 44px;
+
+                    >.mouseFrame{
+                        width: 32px;
+                        height: 44px;
+                        border: solid 4px rgba(18, 247, 214, 1);
+                        border-radius: 100px;
+
+                        >.mouseRoller{
+                            width: 2.667px;
+                            height: 7.33px;
+                            background-color: rgba(18, 247, 214, 1);
+                            margin: auto;
+                            margin-top: 9.17px;
+                        }
+                    }
+                    
+                }
+
+                >.direction{
+                    width: 12px;
+                    height: 87px;
                 }
             }
         }
